@@ -8,6 +8,7 @@ import { PiDotsNineBold } from "react-icons/pi";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { useDispatch } from "react-redux";
 import { setSearchText } from "../../redux/appSlice";
+import { assets } from "../../assets/assets";
 
 export const Navbar = () => {
   // This is use to search the email 50% part in navbar
@@ -62,7 +63,7 @@ export const Navbar = () => {
           <PiDotsNineBold size={"24px"} />
         </div>
         <div className="relative cursor-pointer">
-          <Avatar src={"/src/assets/profile.jpg"} round={true} size={"40px"} />
+          <Avatar src={assets.profile} round={true} size={"40px"} />
         </div>
       </div>
     </div>
