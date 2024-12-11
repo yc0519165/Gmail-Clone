@@ -4,15 +4,17 @@ import { getAnalytics } from "firebase/analytics";
 import { getAuth, GoogleAuthProvider } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
+// Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBbER-MPBXbmBnmgnonTtIevBL86jMT99E",
-  authDomain: "clone-yc-25c7d.firebaseapp.com",
-  projectId: "clone-yc-25c7d",
-  storageBucket: "clone-yc-25c7d.firebasestorage.app",
-  messagingSenderId: "663971087045",
-  appId: "1:663971087045:web:01ef68421fb9ac268866ac",
-  measurementId: "G-1Y56TLDE59",
+  apiKey: "AIzaSyBZeB5za5_FguVN99Hhmm53MFvlGKUXoBw",
+  authDomain: "clone-1c5a8.firebaseapp.com",
+  projectId: "clone-1c5a8",
+  storageBucket: "clone-1c5a8.firebasestorage.app",
+  messagingSenderId: "525399602936",
+  appId: "1:525399602936:web:b83d33e58c8cac710d6d0d",
 };
+
+// Initialize Firebase
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
